@@ -8,8 +8,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-01-Hola-Mundo/node_modules
-02-Hola-Mundo/node_modules
 dist
 dist-ssr
 *.local

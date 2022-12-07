@@ -31,17 +31,17 @@
 
 ## 01-Hola Mundo
 
-[!01](./img/01-Hola-Mundo.png)
+![01](./img/01-Hola-Mundo.png)
 
 ## 02-Tarjeta-presentacion
 
-[!02](./img/02-Tarjeta-presentacion.png)
+![02](./img/02-Tarjeta-presentacion.png)
 
 ## 03-Contador
 
-[!03](./img/03-contador.png)
+![03](./img/03-contador.png)
 
 
 ## 04-Temporizador
 
-[!04](./img/04-Pomodoro.png)
+![04](./img/04-Pomodoro.png)

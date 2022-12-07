@@ -8,9 +8,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-01-Hola-Mundo/node_modules
-02-Tarjeta-presentacion/node_modules
-03-contador/node_modules
 dist
 dist-ssr
 *.local

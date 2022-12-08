@@ -13,6 +13,7 @@ node_modules
 03-contador/node_modules
 04-Temporizador/node_modules
 05-Filtrar-listas/node_modules
+06-Tooltips/node_modules
 dist
 dist-ssr
 *.local

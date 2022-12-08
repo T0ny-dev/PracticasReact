@@ -52,4 +52,4 @@
 
 ## 06-Tooltip
 
-![06](./img/05-list.png)
+![06](./img/06-tooltip.png)

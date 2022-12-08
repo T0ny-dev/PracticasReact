@@ -48,4 +48,8 @@
 
 ## 05-Filtrar listas
 
-![04](./img/05-list.png)
+![05](./img/05-list.png)
+
+## 06-Tooltip
+
+![06](./img/05-list.png)

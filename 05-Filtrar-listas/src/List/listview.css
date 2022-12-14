@@ -15,3 +15,7 @@ input {
 .list li {
   padding-left: 20px;
 }
+
+p {
+  color: aliceblue;
+}

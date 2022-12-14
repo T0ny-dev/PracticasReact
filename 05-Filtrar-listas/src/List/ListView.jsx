@@ -1,10 +1,16 @@
+import { useContext } from "react";
+import { ItemsContext } from "../Context/ItemsContext";
+import Search from "../form/Search";
+import ResultsCount from "../List/ResultsCount"
 import "./listview.css"
 
 
-function ListView({elements, functionFilter}) {
+function ListView() {
+  let elements = useContext(ItemsContext)
   return (
     <div>
-      <input type="text" placeholder="Buscar Framework" onChange={ev => functionFilter(ev.target.value)}/>
+      <Search/>
+      <ResultsCount></ResultsCount>
       <ul className="list">
         {elements.map((nombre, index) => nombre && <li key={index}>{nombre}</li>)}
       </ul>

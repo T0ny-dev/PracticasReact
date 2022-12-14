@@ -1,29 +1,19 @@
-import { useState } from "react";
-import frameWorks from "./items";
-import ListView from "./ListView";
+import ListView from "./ListView"
+import { SearchProvider } from "../Context/ContextSearch";
+import { ItemsProvider } from "../Context/ItemsContext";
+
+
 
 
 function List() {
-  let [items, setItems] = useState(frameWorks)
-
-  function filterItems(word){
-    if(word === ""){
-      setItems(frameWorks);
-    } else {
-      let newItems = filterWords(word);
-      setItems(newItems)
-    }
-  }
-
-  function filterWords(word) {
-    let filterItems = frameWorks.map(item => item.toLocaleLowerCase().includes(word.toLocaleLowerCase()) ? item:null);
-    return filterItems
-  }
-
+  
   return (
-    <div>
-      <ListView elements={items} functionFilter={filterItems} />
-    </div>
+    <SearchProvider>
+      <ItemsProvider>
+        <ListView/>
+      </ItemsProvider>
+    </SearchProvider>
+
   )
 }
 

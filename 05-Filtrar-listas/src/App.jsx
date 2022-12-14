@@ -1,6 +1,8 @@
 import reactLogo from './assets/react.svg'
 import './App.css'
 import List from './List/List'
+import { SearchProvider } from './Context/ContextSearch'
+import { ItemsProvider } from './Context/ItemsContext'
 
 function App() {
 
